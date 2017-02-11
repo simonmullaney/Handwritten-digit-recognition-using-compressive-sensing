@@ -22,3 +22,16 @@ The 2d DCT basis basis function Bpq is given by:
 
 
 Results:
+
+I tested this method by decreasing the number of measurements taken from the original image to see how the number of samples taken from the original image effected how the neural network was able to recognize the images. I started the test  by using all the samples in the image (784) and continued the test until I only took  4 samples decrementing by 4 samples each time. I then plotted the corresponding recognition accuracy against the number of samples used:
+
+
+<img width="639" alt="screen shot 2017-02-06 at 16 17 27" src="https://cloud.githubusercontent.com/assets/18538034/22853826/c17aab6a-f057-11e6-949f-4c02d62e85f7.png">
+
+
+Analysis:
+
+As we can see from the graph above the recognition accuracy remains constant at approximately 90% accuracy until we only take 100 samples (12.75% of samples from original image). This thus represents an ability to reduce the number of samples taken by  87.2% and still achieve the same recognition accuracy as If all samples were taken.
+
+If we only take 40 samples out of the full image (784 samples) which represents a 95% reduction of samples taken from the image, we can still get a recognition accuracy of 80.79% percent.
+
