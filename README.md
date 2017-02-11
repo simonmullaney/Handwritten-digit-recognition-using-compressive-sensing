@@ -16,4 +16,6 @@ Ic is the image reordered as a column vector.
 
 The 2d DCT basis basis function Bpq is given by:
 
-https://cloud.githubusercontent.com/assets/18538034/22853823/b88cdcf8-f057-11e6-9dde-8c029c53f3b6.png
+
+<img width="405" alt="screen shot 2017-02-07 at 14 03 20" src="https://cloud.githubusercontent.com/assets/18538034/22853823/b88cdcf8-f057-11e6-9dde-8c029c53f3b6.png">
+
